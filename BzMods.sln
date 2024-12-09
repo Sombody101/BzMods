@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterPrawnDrill", "FasterPrawnDrill\FasterPrawnDrill.csproj", "{07DBF020-73BE-462C-9C68-E331904914E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A82AE72-CBCF-4BC6-81C8-CB1D6209E3BC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchCraft", "BatchCraft\BatchCraft.csproj", "{3568467C-2466-4F7F-9BC3-3BF0C0A488B3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Common", "Common\Common.shproj", "{15588700-D78F-4AFD-A338-7D03AE16D69E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		BDRun|Any CPU = BDRun|Any CPU
+		BuildRun|Any CPU = BuildRun|Any CPU
+		BZ|Any CPU = BZ|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07DBF020-73BE-462C-9C68-E331904914E5}.BDRun|Any CPU.ActiveCfg = BZ|Any CPU
+		{07DBF020-73BE-462C-9C68-E331904914E5}.BDRun|Any CPU.Build.0 = BZ|Any CPU
+		{07DBF020-73BE-462C-9C68-E331904914E5}.BuildRun|Any CPU.ActiveCfg = BZ|Any CPU
+		{07DBF020-73BE-462C-9C68-E331904914E5}.BZ|Any CPU.ActiveCfg = BZ|Any CPU
+		{07DBF020-73BE-462C-9C68-E331904914E5}.BZ|Any CPU.Build.0 = BZ|Any CPU
+		{07DBF020-73BE-462C-9C68-E331904914E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DBF020-73BE-462C-9C68-E331904914E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DBF020-73BE-462C-9C68-E331904914E5}.Release|Any CPU.ActiveCfg = BZ|Any CPU
+		{07DBF020-73BE-462C-9C68-E331904914E5}.Release|Any CPU.Build.0 = BZ|Any CPU
+		{3568467C-2466-4F7F-9BC3-3BF0C0A488B3}.BDRun|Any CPU.ActiveCfg = BDRun|Any CPU
+		{3568467C-2466-4F7F-9BC3-3BF0C0A488B3}.BDRun|Any CPU.Build.0 = BDRun|Any CPU
+		{3568467C-2466-4F7F-9BC3-3BF0C0A488B3}.BuildRun|Any CPU.ActiveCfg = BZ|Any CPU
+		{3568467C-2466-4F7F-9BC3-3BF0C0A488B3}.BuildRun|Any CPU.Build.0 = BZ|Any CPU
+		{3568467C-2466-4F7F-9BC3-3BF0C0A488B3}.BZ|Any CPU.ActiveCfg = Debug|Any CPU
+		{3568467C-2466-4F7F-9BC3-3BF0C0A488B3}.BZ|Any CPU.Build.0 = Debug|Any CPU
+		{3568467C-2466-4F7F-9BC3-3BF0C0A488B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3568467C-2466-4F7F-9BC3-3BF0C0A488B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3568467C-2466-4F7F-9BC3-3BF0C0A488B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3568467C-2466-4F7F-9BC3-3BF0C0A488B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Common\Common.projitems*{15588700-d78f-4afd-a338-7d03ae16d69e}*SharedItemsImports = 13
+		Common\Common.projitems*{3568467c-2466-4f7f-9bc3-3bf0c0a488b3}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

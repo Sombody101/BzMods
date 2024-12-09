@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>15588700-d78f-4afd-a338-7d03ae16d69e</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Common</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Debug\Log.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Debug\MaterialDumper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Debug\Misc.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Debug\ObjectDumper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Debug\PersistentScreenMessages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Debug\Profiler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflection\Wrappers\EventWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflection\Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflection\Wrappers\MethodWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflection\Wrappers\PropertyWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reflection\ReflectionHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UnityExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Debug\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Reflection\Wrappers\" />
+  </ItemGroup>
+</Project>
